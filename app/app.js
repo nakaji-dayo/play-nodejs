@@ -17001,8 +17001,7 @@
 	                observer.onNext(message);
 	            });
 	            return function dispose() {
-	                console.log('disposed');
-	                //sub.dispose();
+	                sub.dispose();
 	            };
 	        });
 	    }
