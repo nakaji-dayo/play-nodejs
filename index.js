@@ -36,7 +36,7 @@ module.exports = (filename) => {
 
   var app = require('koa')();
   var server = require('http').createServer(app.callback());
-  app.use(require('koa-static')('app'));
+  app.use(require('koa-static')(__dirname + '/app'));
   var io = require('socket.io')(server);
   io.on('connection', (socket) => {
     io.emit('line', 'hello');
