@@ -15,6 +15,8 @@ module.exports = (filename) => {
 
   var isFirstLine = false;
 
+  require('touch').sync(filename);
+  
   fs.watchFile(filename, (curr, prev) => {
     readFileRunRepl(filename);
   });
