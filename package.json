@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A Interactive node.js coding environment that evaluates each statement and displays results as updates are made. work with browser.",
   "main": "index.js",
+  "bin": {
+    "play-nodejs": "bin/run.js"
+  },
   "dependencies": {
     "@cycle/core": "^6.0.3",
     "@cycle/dom": "^9.2.2",
@@ -12,6 +15,7 @@
     "koa": "^1.2.0",
     "koa-static": "^2.0.0",
     "line-input-stream": "^1.0.1",
+    "open": "0.0.5",
     "rx": "^4.1.0",
     "schema-args": "^1.0.0",
     "socket.io": "^1.4.5",
