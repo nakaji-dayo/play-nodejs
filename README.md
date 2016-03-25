@@ -6,7 +6,7 @@ A Interactive node.js coding environment that evaluates each statement and displ
 
 ## install
 ```
-npm install play-nodejs
+npm install play-nodejs -g
 ```
 
 ## usage
