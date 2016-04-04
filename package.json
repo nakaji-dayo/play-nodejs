@@ -1,6 +1,6 @@
 {
   "name": "play-nodejs",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "node.js playground. A Interactive node.js coding environment that displays each line results. Working with browser. For trial and snippet use.",
   "main": "index.js",
   "bin": {
