@@ -16,7 +16,7 @@
     "koa-static": "^2.0.0",
     "open": "0.0.5",
     "rx": "^4.1.0",
-    "schema-args": "^1.0.0",
+    "schema-args": "^1.1.1",
     "socket.io": "^1.4.5",
     "touch": "^1.0.0"
   },
